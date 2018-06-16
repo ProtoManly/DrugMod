@@ -1,0 +1,7 @@
+{
+   "parent": "block/cross",
+   "textures": {
+       "cross": "dm:blocks/coca_plant",
+        "particle": "dm:blocks/coca_plant"
+   }
+}

@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:heroin_bottle"
+    },
+    {
+      "item": "dm:used_needle"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:used_heroin_needle",
+        "count": 1
+    }
+}

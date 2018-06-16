@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "   ",
+        "PPP",
+        "   "
+    ],
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:paper"
+        }
+    },
+    "result":
+    {
+        "item": "dm:pill",
+        "count": 1
+    }
+}

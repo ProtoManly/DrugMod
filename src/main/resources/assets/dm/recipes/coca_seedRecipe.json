@@ -1,0 +1,14 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:coca_leaf"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:coca_seeds",
+        "count": 1
+    }
+}

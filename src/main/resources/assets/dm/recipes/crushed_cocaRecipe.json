@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:knife"
+    },
+    {
+      "item": "dm:coca_leaf"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:crushed_coca",
+        "count": 1
+    }
+}

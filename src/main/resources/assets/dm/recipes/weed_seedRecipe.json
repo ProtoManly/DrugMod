@@ -1,0 +1,14 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:weed"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:weed_seed",
+        "count": 1
+    }
+}

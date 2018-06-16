@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  I",
+        " II",
+        "SI "
+    ],
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    "result":
+    {
+        "item": "dm:knife",
+        "count": 2
+    }
+}

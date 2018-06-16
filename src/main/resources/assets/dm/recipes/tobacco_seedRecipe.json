@@ -1,0 +1,14 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:tobacco_leaf"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:tobacco_seed",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "dm:crushed_coca"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:powder",
+        "count": 3
+    }
+}

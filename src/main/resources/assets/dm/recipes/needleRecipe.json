@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " IG",
+        " PI",
+        "I  "
+    ],
+    "key":
+    {
+        "G":
+        {
+            "item": "minecraft:glass"
+        },
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "P":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    "result":
+    {
+        "item": "dm:needle",
+        "count": 5
+    }
+}

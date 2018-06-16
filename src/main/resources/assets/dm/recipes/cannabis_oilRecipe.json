@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:weed"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:cannabis_oil",
+        "count": 1
+    }
+}

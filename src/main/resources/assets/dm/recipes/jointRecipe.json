@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:dried_weed"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:joint",
+        "count": 1
+    }
+}

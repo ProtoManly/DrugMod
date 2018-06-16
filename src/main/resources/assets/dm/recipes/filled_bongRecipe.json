@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:bong"
+    },
+    {
+      "item": "dm:dried_weed"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:filled_bong",
+        "count": 1
+    }
+}

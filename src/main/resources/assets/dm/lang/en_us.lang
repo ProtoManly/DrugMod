@@ -1,0 +1,29 @@
+//Items
+item.bong.name=Bong
+item.filled_bong.name=Filled Bong
+item.cig.name=Cig
+item.coca_leaf.name=Coca Leaf
+item.coca_seeds.name=Coca Seed
+item.dried_weed.name=Dried Weed
+item.joint.name=Joint
+item.knife.name=Knife
+item.weed_seed.name=Weed Seed
+item.weed.name=Weed
+item.cannabis_oil.name=Cannabis Oil
+item.cannabis_pill.name=Cannabis Pill
+item.coke.name=Coke
+item.crushed_coca.name=Crushed Coca
+item.dried_tobacco.name=Dried Tobacco
+item.heroin_needle.name=Heroin Syringe
+item.needle.name=Syringe
+item.pill.name=Pill Capsule
+item.powder.name=Powder
+item.tobacco_leaf.name=Tobacco
+item.tobacco_seed.name=Tobacco Seed
+item.used_heroin_needle.name=Used Heroin Syringe
+item.used_needle.name=Used Syringe
+item.wet_powder.name=Wet Powder
+item.poppy_seed.name=Poppy Seed
+item.heroin_bottle.name=Heroin Bottle
+
+//Blocks
