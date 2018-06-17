@@ -1,0 +1,14 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:negative_drug_test"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:drug_test",
+        "count": 1
+    }
+}

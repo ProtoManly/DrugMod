@@ -52,4 +52,7 @@ public class ModItems {
 	public static final Item PILL = new ItemBase("pill");
 	public static final Item NEEDLE = new ItemBase("needle");
 	public static final Item USED_NEEDLE = new ItemBase("used_needle");
+	public static final ItemFood DRUG_TEST = new FoodDrugTest("drug_test", 0, 0.5f, false);
+	public static final ItemFood POSITIVE_DRUG_TEST = new FoodPositiveDrugTest("positive_drug_test", 0, 0.5f, false);
+	public static final ItemFood NEGATIVE_DRUG_TEST = new FoodNegativeDrugTest("negative_drug_test", 0, 0.5f, false);
 }

@@ -25,5 +25,8 @@ item.used_needle.name=Used Syringe
 item.wet_powder.name=Wet Powder
 item.poppy_seed.name=Poppy Seed
 item.heroin_bottle.name=Heroin Bottle
+item.drug_test.name=Drug Test
+item.negative_drug_test.name=Negative Drug Test
+item.positive_drug_test.name=Positive Drug Test
 
 //Blocks

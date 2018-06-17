@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+       "layer0": "dm:items/positive_drug_test"
+   }
+}
