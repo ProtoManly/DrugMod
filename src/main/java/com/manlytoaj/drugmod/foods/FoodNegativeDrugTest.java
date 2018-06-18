@@ -43,9 +43,9 @@ public class FoodNegativeDrugTest extends ItemFood implements IHasModel {
 	}
 	@Override
 	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase player) {
-		stack.shrink(1);
 		EntityPlayer plr = (EntityPlayer)player;
 		plr.addItemStackToInventory(new ItemStack(ModItems.DRUG_TEST, 1));
+		stack.shrink(1);
 		return(stack);
 	}
 }

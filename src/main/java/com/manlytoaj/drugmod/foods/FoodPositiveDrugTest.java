@@ -46,8 +46,8 @@ public class FoodPositiveDrugTest extends ItemFood implements IHasModel {
 		}
 		EntityPlayer plr = (EntityPlayer)player;
 		if(!plr.isCreative()){
-			stack.shrink(1);
 			plr.addItemStackToInventory(new ItemStack(ModItems.DRUG_TEST, 1));
+			stack.shrink(1);
 		}
 		return(stack);
 	}
