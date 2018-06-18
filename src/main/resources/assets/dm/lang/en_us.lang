@@ -4,11 +4,11 @@ item.filled_bong.name=Filled Bong
 item.cig.name=Cig
 item.coca_leaf.name=Coca Leaf
 item.coca_seeds.name=Coca Seed
-item.dried_weed.name=Dried Weed
+item.dried_weed.name=Dried Cannabis
 item.joint.name=Joint
 item.knife.name=Knife
-item.weed_seed.name=Weed Seed
-item.weed.name=Weed
+item.weed_seed.name=Cannabis Seed
+item.weed.name=Cannabis
 item.cannabis_oil.name=Cannabis Oil
 item.cannabis_pill.name=Cannabis Pill
 item.coke.name=Coke
@@ -28,5 +28,6 @@ item.heroin_bottle.name=Heroin Bottle
 item.drug_test.name=Drug Test
 item.negative_drug_test.name=Negative Drug Test
 item.positive_drug_test.name=Positive Drug Test
+item.water_drug_test.name=Water Drug Test Cup
 
 //Blocks

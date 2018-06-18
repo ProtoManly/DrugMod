@@ -24,8 +24,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import scala.Console;
 
-public class FoodDrugTest extends ItemFood implements IHasModel {
-	public FoodDrugTest(String name, int amount, float saturation, boolean isWolfFood) {
+public class FoodWaterDrugTest extends ItemFood implements IHasModel {
+	public FoodWaterDrugTest(String name, int amount, float saturation, boolean isWolfFood) {
 		super(amount, saturation, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -37,7 +37,7 @@ public class FoodDrugTest extends ItemFood implements IHasModel {
 	@Override
     public EnumAction getItemUseAction(ItemStack par1ItemStack)
     {
-        return EnumAction.NONE;
+        return EnumAction.DRINK;
 	}
 	@Override
 	public void registerModels() {
@@ -46,30 +46,8 @@ public class FoodDrugTest extends ItemFood implements IHasModel {
 	@Override
 	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase player) {
 		EntityPlayer plr = (EntityPlayer)player;
-		if(plr.isPotionActive(Potion.getPotionById(9))){
-			plr.addItemStackToInventory(new ItemStack(ModItems.POSITIVE_DRUG_TEST, 1));
-		}else {
-			plr.addItemStackToInventory(new ItemStack(ModItems.NEGATIVE_DRUG_TEST, 1));
-		}
+		plr.addItemStackToInventory(new ItemStack(ModItems.DRUG_TEST, 1));
 		stack.shrink(1);
 		return(stack);
-	}
-	@Override
-	public void onUsingTick(ItemStack stack, EntityLivingBase player, int count)
-    {
-		EntityPlayer plr = (EntityPlayer)player;
-		Piss.doEffect(player, player.world);
-    }
-	@Override
-	public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-		IBlockState state = worldIn.getBlockState(pos.up());
-		ItemStack stack = player.getHeldItem(hand);
-		if(state.getBlock() == Blocks.WATER) {
-			player.addItemStackToInventory(new ItemStack(ModItems.WATER_DRUG_TEST, 1));
-			stack.shrink(1);
-			return(EnumActionResult.PASS);
-		}else {
-			return(EnumActionResult.FAIL);
-		}
 	}
 }

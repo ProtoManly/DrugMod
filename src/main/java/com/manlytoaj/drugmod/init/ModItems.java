@@ -55,4 +55,5 @@ public class ModItems {
 	public static final ItemFood DRUG_TEST = new FoodDrugTest("drug_test", 0, 0.5f, false);
 	public static final ItemFood POSITIVE_DRUG_TEST = new FoodPositiveDrugTest("positive_drug_test", 0, 0.5f, false);
 	public static final ItemFood NEGATIVE_DRUG_TEST = new FoodNegativeDrugTest("negative_drug_test", 0, 0.5f, false);
+	public static final ItemFood WATER_DRUG_TEST = new FoodWaterDrugTest("water_drug_test", 0, 0.5f, false);
 }

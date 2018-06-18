@@ -41,8 +41,10 @@ public class Main {
 		ModRecipes.init();
 		//Set Container Items
 		ModItems.KNIFE.setContainerItem(ModItems.KNIFE);
-		ModItems.CANNABIS_OIL.setContainerItem(Items.GLASS_BOTTLE);
-		ModItems.HEROIN_BOTTLE.setContainerItem(Items.GLASS_BOTTLE);
+		ModItems.WATER_DRUG_TEST.setContainerItem(ModItems.DRUG_TEST);
+		ModItems.NEGATIVE_DRUG_TEST.setContainerItem(ModItems.DRUG_TEST);
+		ModItems.POSITIVE_DRUG_TEST.setContainerItem(ModItems.DRUG_TEST);
+		Items.POTIONITEM.setContainerItem(Items.GLASS_BOTTLE);
 		
 		//Add seeds
 		MinecraftForge.addGrassSeed(new ItemStack(ModItems.WEED_SEED), 3);
