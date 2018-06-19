@@ -47,6 +47,11 @@ public class ModItems {
 	public static final Item POPPY_SEED = new Poppy_Seeds("poppy_seed");
 	public static final ItemFood USED_HEROIN_NEEDLE = new FoodHeroinDirty("used_heroin_needle", 0, 0.5f, false);
 	
+	//Wine
+	public static final Item GRAPE = new Grape("grape");
+	public static final Item GRAPE_JUICE_BUCKET = new Grape_Juice_Bucket("grape_juice_bucket");
+	public static final ItemFood WINE_BUCKET = new FoodWine_Bucket("wine_bucket", 0, 0.5f, false);
+	
 	//OtherItems
 	public static final Item BONG = new ItemBase("bong");
 	public static final Item PILL = new ItemBase("pill");

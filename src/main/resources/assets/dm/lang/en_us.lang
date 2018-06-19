@@ -29,5 +29,9 @@ item.drug_test.name=Drug Test
 item.negative_drug_test.name=Negative Drug Test
 item.positive_drug_test.name=Positive Drug Test
 item.water_drug_test.name=Water Drug Test Cup
+item.grape.name=Grape
+item.grape_juice_bucket.name=Grape Juice Bucket
+item.wine_bucket.name=Wine Bucket
 
 //Blocks
+tile.lattice.name=Lattice

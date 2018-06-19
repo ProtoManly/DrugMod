@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+    {
+      "item": "dm:knife"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "dm:grape"
+    }
+    ],
+    "result": 
+    {
+        "item": "dm:grape_juice_bucket",
+        "count": 1
+    }
+}

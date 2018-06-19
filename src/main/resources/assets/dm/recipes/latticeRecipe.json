@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SWS",
+        "WSW",
+        "SWS"
+    ],
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:planks"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    "result":
+    {
+        "item": "dm:lattice",
+        "count": 1
+    }
+}
