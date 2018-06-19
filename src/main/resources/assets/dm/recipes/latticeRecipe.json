@@ -2,16 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "SWS",
-        "WSW",
-        "SWS"
+        "S S",
+        " S ",
+        "S S"
     ],
     "key":
     {
-        "W":
-        {
-            "item": "minecraft:planks"
-        },
         "S":
         {
             "item": "minecraft:stick"
